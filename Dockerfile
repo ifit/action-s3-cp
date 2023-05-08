@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM public.ecr.aws/docker/library/python:3.7-alpine
 
 LABEL "com.github.actions.name"="S3 cp file"
 LABEL "com.github.actions.description"="Copy a file to an AWS S3 bucket"
